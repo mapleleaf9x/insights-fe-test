@@ -652,6 +652,10 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+.add-cart-group .quantity .btn-add-to-cart:hover{
+    cursor: pointer;
+}
+
 .add-cart-group .icon-text-wrap {
     display: flex;
 }

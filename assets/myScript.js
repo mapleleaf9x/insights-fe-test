@@ -23,6 +23,10 @@ $(document).ready(function() {
         alert('Clicked See All Products');
     });
 
+    $('.btn-add-to-cart').click(function() {
+        alert('Add To Cart');
+    });
+
     $('#scrollRight').click(function() {
         $('.hot-slider .slider .slide-content').animate({
           scrollLeft: '+=640'
